@@ -109,11 +109,12 @@
 
 .produtos, .produtos2, .produtos3, .produtos4 {
     margin: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.123);
+    transition: 1s;
 }
 
 .produtos, .produtos2, .produtos3, .produtos4 h2 {
     font-family: Poppins, sans-serif;
-    
 }
 
 .produtos, .produtos2, .produtos3, .produtos4 p {
