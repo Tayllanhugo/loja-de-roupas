@@ -25,6 +25,22 @@
     text-decoration: none;
     font-family: Poppins, sans-serif;
     transition: 0.6s ease;
+    position: relative;
+}
+
+#container-geral nav ul li a::after {
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(112, 112, 112);
+    bottom: 0;
+    left: 0;
+    transition: 0.8s ease;
+}
+
+#container-geral nav ul li a:hover::after {
+    width: 100%;
 }
 
 #container-geral nav ul li a:hover {
@@ -56,7 +72,69 @@
 }
 
 .menus ul li a {
+    position: relative;
     color: rgb(112, 112, 112);
     text-decoration: none;
     font-family: Poppins, sans-serif;
+}
+
+.menus ul li a::after {
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(112, 112, 112);
+    bottom: 0;
+    left: 0;
+    transition: 0.8s ease;
+}
+
+.menus ul li a:hover::after {
+    width: 100%;
+}
+
+
+.container-itens {
+    display: flex;
+    margin: 50px;
+}
+
+.container-produtos {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.produtos, .produtos2, .produtos3, .produtos4 {
+    margin: 30px;
+}
+
+.produtos, .produtos2, .produtos3, .produtos4 h2 {
+    font-family: Poppins, sans-serif;
+    
+}
+
+.produtos, .produtos2, .produtos3, .produtos4 p {
+    font-family: Poppins, sans-serif;
+}
+
+.desconto {
+    text-decoration: line-through;
+}
+
+.produtos2 img  {
+    width: 500px;
+    height: 500px;
+}
+
+.produtos3 img {
+    width: 500px;
+    height: 500px;
+}
+
+.produtos4 img {
+    width: 500px;
+    height: 500px;
 }
