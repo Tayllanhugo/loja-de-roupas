@@ -111,6 +111,7 @@
     margin: 30px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.123);
     transition: 1s;
+    padding: 20px;    
 }
 
 .produtos, .produtos2, .produtos3, .produtos4 h2 {
@@ -138,4 +139,54 @@
 .produtos4 img {
     width: 500px;
     height: 500px;
+}
+
+
+/*Animações javascript */
+
+
+#tunicaPreta {
+    transition: opacity 0.5s ease-in-out
+}
+#tunicaAzul {
+    transition: opacity 0.5s ease-in-out;
+}
+#tunicaCreme {
+    transition: opacity 0.5s ease-in-out;
+}
+#saiaSonia {
+    transition: opacity 0.5s ease-in-out;
+}
+#vestidoSonia {
+    transition: opacity 0.5s ease-in-out;
+}
+#calcaLarga {
+    transition: opacity 0.5s ease-in-out;
+}
+#jaquetaHaori {
+    transition: opacity 0.5s ease-in-out;
+}
+#largaAzul {
+    transition: opacity 0.5s ease-in-out;
+}
+#saiaJane {
+    transition: opacity 0.5s ease-in-out;
+}
+#calcaRomy {
+    transition: opacity 0.5s ease-in-out;
+}
+#camisetaChef {
+    transition: opacity 0.5s ease-in-out;
+}
+#jacky {
+    transition: opacity 0.5s ease-in-out;
+}
+#camisaLisa {
+    transition: opacity 0.5s ease-in-out;
+}
+#estudio {
+    transition: opacity 0.5s ease-in-out;
+}
+#topLinho {
+    transition: opacity 0.5s ease-in-out;
 }
