@@ -356,3 +356,4 @@ function estudioSair() {
         topLinho.style.opacity = 1;
     }, 300);
 }
+

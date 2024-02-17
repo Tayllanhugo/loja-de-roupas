@@ -190,3 +190,66 @@
 #topLinho {
     transition: opacity 0.5s ease-in-out;
 }
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.container-footer .itens {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itens h1 {
+    font-family: monospace, sans-serif;
+    text-decoration: underline;
+    font-size: 2.4em;
+}
+
+.itens p {
+    margin-top: 60px;
+    font-family: monospace, sans-serif;
+}
+
+.inputs-cadastro {
+    margin-top: 60px;
+    font-family: monospace, sans-serif;
+}
+
+.inputs-cadastro input {
+    padding: 25px 22.4px;
+}
+
+.inputs-cadastro input:active {
+    border: 2px solid black;
+}
+
+.inputs-cadastro button {
+    background-color: black;
+    color: white;
+    padding: 25px 22.4px;
+    cursor: pointer;
+}
+
+.inputs-cadastro button:hover {
+    background-color: rgb(46, 46, 46);
+}
+
+.inputs-cadastro button:active {
+    background-color: rgb(78, 78, 78);
+}
+
+.itens span {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.itens span:hover {
+    text-decoration: underline;
+}
+
