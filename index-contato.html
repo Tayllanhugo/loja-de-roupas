@@ -35,7 +35,7 @@
  
     <section class="container-form">
         <div class="fale-conosco">
-            <p>Fale Conosco</p>
+            <p> <span>Fale Conosco.</span></p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum dolore blanditiis, asperiores, nam iusto ullam eius voluptates autem libero quaerat pariatur deserunt sapiente ratione modi, enim ipsum molestias maiores laudantium.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sed itaque deserunt dolore qui ex vitae ut. Labore quibusdam necessitatibus, quo fugiat consectetur magni numquam voluptatum, deleniti animi corporis optio?
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus modi aliquid cumque minima consectetur, dolores laudantium harum obcaecati corrupti beatae. Ipsam, eveniet impedit laboriosam placeat quae repellat. Vel, impedit autem.
@@ -46,14 +46,19 @@
         <div class="form">
             <p>Nome <span>(obrigatório)</span></p>
             
-            <div class="nome">
-                <form action="">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" class="nome">
-
-                    <label for="sobrenome">Sobrenome</label>
-                    <input type="text" name="sobrenome" id="sobrenome" class="sobrenome">
-                </form>
+            <div class="nomes">
+                <div class="nome">
+                    <form action="">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" class="nome">
+                    </form>
+                </div>
+                <div class="sobrenome">
+                    <form>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" class="sobrenome">
+                    </form>
+                </div>
             </div>
 
             <div class="continuacao-form">
@@ -65,9 +70,11 @@
                     <input type="text" name="assunto" id="assunto" class="assunto">
 
                     <label for="mensagem">Mensagem <span>(obrigatório)</span></label>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    <textarea name="mensagem" id="mensagem" cols="61" rows="10"></textarea>
                 </form>
             </div>
+
+            <button>Enviar</button>
         </div>
     </section>
 
