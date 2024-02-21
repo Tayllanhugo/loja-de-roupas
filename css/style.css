@@ -108,6 +108,11 @@
     justify-content: space-around;
 }
 
+.container-produtos a {
+    color: black;
+    text-decoration: none;
+}
+
 
 .produtos, .produtos2, .produtos3, .produtos4 {
     margin: 30px;

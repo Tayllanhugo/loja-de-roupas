@@ -16,5 +16,13 @@
 
 .imagens img {
     border-radius: 5px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.425);
+    width: 300px;
+    margin: 30px;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+
+.imagens img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(15px 7px 5px rgba(0, 0, 0, 0.384));
 }
