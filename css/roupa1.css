@@ -11,8 +11,24 @@
     gap: 40px;
     margin-top: 90px;
     padding: 40px;
+    justify-content: center;
 }
 
 .esquerda img {
-    width: 450px;
+    width: 600px;
+}
+
+.descricao {
+    border: 1px solid red;
+    width: 500px;
+}
+
+.direita h1 {
+    font-family: monospace, sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.direita h2 {
+    font-family: monospace, sans-serif;
 }
